@@ -1,7 +1,7 @@
 title: RageQuit.tips
 baseurl: /
 permalink: '/:title/'
-palette: violet
+palette: green
 palettes:
   blue:
     sass:
@@ -15,14 +15,14 @@ palettes:
     sass:
       accent1: '#004e92'
       accent2: '#000428'
-  violet:
-    sass:
-      accent1: '#8e2de2'
-      accent2: '#4a00e0'
   red:
     sass:
       accent1: '#420C08'
       accent2: '#D0302C'
+  violet:
+    sass:
+      accent1: '#8e2de2'
+      accent2: '#4a00e0'
 sass:
   indentWidth: 4
   precision: 10
