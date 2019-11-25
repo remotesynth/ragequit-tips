@@ -19,6 +19,10 @@ palettes:
     sass:
       accent1: '#8e2de2'
       accent2: '#4a00e0'
+  red:
+    sass:
+      accent1: '#420C08'
+      accent2: '#D0302C'
 sass:
   indentWidth: 4
   precision: 10
