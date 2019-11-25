@@ -1,0 +1,41 @@
+---
+layout: body
+---
+
+  <header class="page-header bg-gradient outer">
+    {% assign img_path_is_not_empty = page.img_path | is_not_empty %}
+    {% if img_path_is_not_empty %}
+    <div class="bg-img" style="background-image: url('{{ page.img_path | relative_url }}')"></div>
+    {% endif %}
+    <div class="inner-small">
+      <h1 class="page-title">{{ page.title }}</h1>
+      {% assign subtitle_is_not_empty = page.subtitle | is_not_empty %}
+      {% if subtitle_is_not_empty %}
+      <p class="page-subtitle">{{ page.subtitle }}</p>
+      {% endif %}
+    </div><!-- .inner-small -->
+  </header><!--.page-header -->
+
+  <div class="showcase-block outer">
+    <div class="inner">
+      <div class="block-items">
+        {% for item in page.items %}
+        <section class="block-item">
+          <div class="block-item-inside">
+            {% assign preview_img_is_not_empty = item.preview_img | is_not_empty %}
+            {% if preview_img_is_not_empty %}
+            <a class="block-item-preview" href="{{ item.url }}">
+              <img class="thumbnail" src="{{ item.preview_img | relative_url }}" alt="{{ item.title }}" />
+            </a>
+            {% endif %}
+            <h2 class="block-item-title"><a href="{{ item.url }}">{{ item.title }}</a></h2>
+            {% assign subtitle_is_not_empty = item.subtitle | is_not_empty %}
+            {% if subtitle_is_not_empty %}
+            <p class="block-item-text">{{ item.subtitle }}</p>
+            {% endif %}
+          </div><!-- .block-item-inside -->
+        </section><!-- .block-item -->
+        {% endfor %}
+      </div><!-- .block-items -->
+    </div><!-- .inner-->
+  </div><!-- .showcase-block -->

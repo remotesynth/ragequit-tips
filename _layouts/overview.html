@@ -1,0 +1,50 @@
+---
+layout: body
+---
+
+  <header class="page-header bg-gradient outer">
+    {% assign img_path_is_not_empty = page.img_path | is_not_empty %}
+    {% if img_path_is_not_empty %}
+    <div class="bg-img" style="background-image: url('{{ page.img_path | relative_url }}')"></div>
+    {% endif %}
+    <div class="inner-small">
+      <h1 class="page-title">{{ page.title }}</h1>
+      {% assign subtitle_is_not_empty = page.subtitle | is_not_empty %}
+      {% if subtitle_is_not_empty %}
+      <p class="page-subtitle">{{ page.subtitle }}</p>
+      {% endif %}
+    </div><!-- .inner-small -->
+  </header><!--.page-header -->
+
+  <div class="docs-block outer">
+    <div class="inner">
+      <div class="block-items">
+        {% for section in site.data.doc_sections.sections %}
+          {% assign section_folder = site.data.doc_sections.root_folder | append: section %}
+          {% assign section_page_path = section_folder | append: '/index.md' %}
+          {% assign section_page = section_page_path | get_page %}
+          {% assign child_pages = section_folder | get_pages | where_exp: "item", "item.basename != 'index.md'" %}
+          {% assign child_count = child_pages | size %}
+          {% if child_count > 0 %}
+              {% assign has_children = true %}{% else %}
+              {% assign has_children = false %}{% endif %}
+
+          <section class="block-item">
+            <div class="block-item-inside">
+              <h2 class="block-item-title{% assign has_children_is_not_empty = has_children | is_not_empty %}{% if has_children_is_not_empty %} line-left{% endif %}"><a href="{{ section_page.url | relative_url }}">{{ section_page.title }}</a></h2>
+              {% assign excerpt_is_not_empty = section_page.excerpt | is_not_empty %}
+              {% if excerpt_is_not_empty %}
+                <p class="block-item-text">{{ section_page.excerpt }}</p>
+                <p class="block-item-cta"><a href="{{ section_page.url | relative_url }}">Learn More <span class="icon-arrow-right" aria-hidden="true"></span></a></p>
+              {% endif %}
+            </div><!-- .block-item-inside -->
+          </section><!-- .block-item -->
+        {% endfor %}
+      </div><!-- .block-items -->
+    </div><!-- .inner -->
+  </div><!-- .docs-block -->
+
+  {% for section in page.sections %}
+    
+    {% include {{ section.component }} section=section site=site %}
+  {% endfor %}
