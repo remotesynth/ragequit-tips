@@ -83,6 +83,9 @@ models:
           - type: palette
             name: violet
             label: Violet
+          - type: palette
+            name: red
+            label: red
       - type: object
         name: sass
         label: Sass

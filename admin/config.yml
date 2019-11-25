@@ -38,6 +38,7 @@ collections:
               - green
               - navy
               - violet
+              - red
           - widget: hidden
             name: palettes
             label: Palettes
