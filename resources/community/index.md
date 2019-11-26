@@ -1,5 +1,5 @@
 ---
-title: Where To Get Support
+title: Community Support
 excerpt: >-
   We'd love it if you participate in the Libris community. Find out how to get
   connected.
