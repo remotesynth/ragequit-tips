@@ -2,7 +2,7 @@
 title: Home
 sections:
   - actions:
-      - label: Resources
+      - label: See Our Resources
         url: docs/index.html
     component: hero_block.html
     content: >-
@@ -18,25 +18,23 @@ sections:
           - label: Get Started
             url: docs/index.html
         content: >-
-          Donec lobortis velit sed suscipit lobortis. Ut non quam metus. Nullam
-          a maximus mi. Quisque justo nunc, sollicitudin euismod euismod at,
-          tincidunt ut tellus. Vivamus rhoncus mattis varius.
-        title: Documentation
+          Links to external sites, posts and more that can help you manage your
+          burnout.
+        title: Resources
       - actions:
           - label: View Posts
             url: blog/index.html
         content: >-
-          Vestibulum a nunc ut eros condimentum posuere. Nullam dapibus quis
-          nunc non interdum. Pellentesque tortor ligula, gravida ac commodo eu.
+          A place for sharing thoughts and experiences from people who've dealt
+          with burnout.
         title: Blog
       - actions:
           - label: Learn More
             url: /style-guide.html
         content: >-
-          Donec lobortis velit sed suscipit lobortis. Ut non quam metus. Nullam
-          a maximus mi. Quisque justo nunc, sollicitudin euismod euismod at,
-          tincidunt ut tellus. Vivamus rhoncus mattis varius.
-        title: Style Guides
+          Have experiences you want to share? Want to help others deal with
+          burnout? Here's how to contribute.
+        title: Contribute
     section_id: features
     type: featuresblock
   - actions:
