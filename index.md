@@ -30,7 +30,7 @@ sections:
         title: Blog
       - actions:
           - label: Learn More
-            url: /style-guide.html
+            url: /contribute.html
         content: >-
           Have experiences you want to share? Want to help others deal with
           burnout? Here's how to contribute.
