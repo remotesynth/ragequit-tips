@@ -38,18 +38,17 @@ sections:
     section_id: features
     type: featuresblock
   - actions:
-      - label: View Demo
-        url: /docs/getting-started/index.html
-      - label: Get Started
+      - label: Lean More
+        url: /about.html
+      - label: Resources
         url: /docs/getting-started/index.html
     component: content_block.html
     content: >-
-      Nam pulvinar ante eu ultricies volutpat. Sed nulla nibh, dapibus sit amet
-      cursus quis, fringilla nec sapien. Vestibulum imperdiet nunc bibendum
-      consectetur lobortis.
-    image: images/10.jpg
+      Burnout is a common problem facing people today. RageQuit.tips was created
+      as a way for people to share and help others cope with burnout.
+    image: /images/burntout.jpg
     section_id: text-img
-    title: A Section With An Image
+    title: About this site
     type: contentblock
   - component: features_block.html
     featureslist:
