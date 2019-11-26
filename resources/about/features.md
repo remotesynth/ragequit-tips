@@ -1,7 +1,7 @@
 ---
 title: Features
 weight: 2
-layout: docs
+layout: resources
 ---
 
 <div class="note">

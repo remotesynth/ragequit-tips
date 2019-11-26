@@ -184,7 +184,7 @@ collections:
             name: root_folder
             label: Root Folder
             required: true
-            default: /docs/
+            default: /resources/
             hint: >-
               The path under which the resource pages will be generated.
               For example, set to "/" to put all resource pages at root, or

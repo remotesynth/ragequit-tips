@@ -3,7 +3,7 @@ title: Home
 sections:
   - actions:
       - label: See Our Resources
-        url: docs/index.html
+        url: resources/index.html
     component: hero_block.html
     content: >-
       When work or the world make you feel like just quitting, this is place for
@@ -16,7 +16,7 @@ sections:
     featureslist:
       - actions:
           - label: Get Started
-            url: docs/index.html
+            url: resources/index.html
         content: >-
           Links to external sites, posts and more that can help you manage your
           burnout.
@@ -41,7 +41,7 @@ sections:
       - label: Lean More
         url: /about.html
       - label: Resources
-        url: /docs/getting-started/index.html
+        url: /resources/index.html
     component: content_block.html
     content: >-
       Burnout is a common problem facing people today. Oftentimes, it can lead

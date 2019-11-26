@@ -227,16 +227,16 @@ models:
   doc_sections:
     type: data
     file: doc_sections.yml
-    label: Documentation Sections
+    label: Resources Sections
     fields:
       - type: string
         name: root_folder
         label: Root Folder
         description: >-
-          The path under which the documentation pages will be generated. For
-          example, set to "/" to put all documentation pages at root, or set to
-          "/docs/" to put all documentation pages under "/docs/".
-        default: /docs/
+          The path under which the resource pages will be generated. For
+          example, set to "/" to put all resource pages at root, or set to
+          "/resources/" to put all resource pages under "/resources/".
+        default: /resources/
         required: true
       - type: list
         name: sections

@@ -1,7 +1,7 @@
 ---
 title: Plug-ins
 weight: 2
-layout: docs
+layout: resources
 ---
 
 <div class="note">

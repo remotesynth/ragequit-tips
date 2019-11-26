@@ -1,7 +1,7 @@
 ---
 title: Starter Theme
 weight: 1
-layout: docs
+layout: resources
 ---
 
 <div class="note">

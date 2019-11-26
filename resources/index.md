@@ -2,9 +2,9 @@
 title: Welcome to Libris
 menus:
   main:
-    title: Docs
+    title: Resources
     weight: 2
-layout: docs
+layout: resources
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt id ante id varius. Fusce a gravida dolor.

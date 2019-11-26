@@ -10,7 +10,7 @@ sections:
     subtitle: This is an optional description for the call to action block.
     actions:
       - label: Get Started
-        url: /docs/getting-started/index.html
+        url: /resources/index.html
 menus:
   layouts:
     title: Overview
