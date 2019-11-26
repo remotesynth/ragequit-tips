@@ -1,9 +1,9 @@
 root_folder: /resources/
 sections:
   - about
-  - getting-started
-  - ui-components
-  - manage-content
-  - tools
+  - dealing-with-burnout
+  - research
+  - burnout-experiences
+  - mindfulness
   - faq
   - community
