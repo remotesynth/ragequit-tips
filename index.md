@@ -2,15 +2,15 @@
 title: Home
 sections:
   - actions:
-      - label: Get Started
+      - label: Resources
         url: docs/index.html
     component: hero_block.html
     content: >-
-      This section can contain a subtitle or tagline. The recommended length is
-      one to three sentences, but can be changed as you prefer.
+      When work or the world make you feel like just quitting, this is place for
+      tips, links and stories about dealing with burnout.
     image: images/5.jpg
     section_id: hero
-    title: Tips and stories for dealing with burnout
+    title: Don't let burnout make you quit!
     type: heroblock
   - component: features_block.html
     featureslist:
