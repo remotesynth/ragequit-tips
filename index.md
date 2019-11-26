@@ -44,8 +44,10 @@ sections:
         url: /docs/getting-started/index.html
     component: content_block.html
     content: >-
-      Burnout is a common problem facing people today. RageQuit.tips was created
-      as a way for people to share and help others cope with burnout.
+      Burnout is a common problem facing people today. Oftentimes, it can lead
+      to people leaving their jobs, leaving an industry or pulling back from
+      involvement in the things they once cared deeply about. RageQuit.tips was
+      created as a way for people to share and help others cope with burnout.
     image: /images/burntout.jpg
     section_id: text-img
     title: About this site
@@ -53,24 +55,24 @@ sections:
   - component: features_block.html
     featureslist:
       - actions:
-          - label: Learn More
+          - label: Read More
             url: /overview.html
         content: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
           ligula, cursus id molestie vel, maximus aliquet risus. Vivamus in nibh
           fringilla, fringilla tortor at, pulvinar orci.
-        title: Overview
+        title: Blog Post 1
       - actions:
-          - label: Learn More
+          - label: Read More
             url: /showcase.html
         content: >-
           Donec lobortis velit sed suscipit lobortis. Ut non quam metus. Nullam
           a maximus mi. Quisque justo nunc, sollicitudin euismod euismod at,
           tincidunt ut tellus. Vivamus rhoncus mattis varius.
-        title: Showcase
+        title: Blog Post 2
     section_id: features-two-col
-    subtitle: An optional subtitle of the section
-    title: Sample Layouts
+    subtitle: Recent posts from people who are dealing with or have experienced burnout
+    title: Featured Posts
     type: featuresblock
   - actions:
       - label: Get Started
