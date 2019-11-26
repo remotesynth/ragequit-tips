@@ -8,7 +8,7 @@ sections:
     content: >-
       When work or the world make you feel like just quitting, this is place for
       tips, links and stories about dealing with burnout.
-    image: images/5.jpg
+    image: /images/background_image.png
     section_id: hero
     title: Don't let burnout make you quit!
     type: heroblock
