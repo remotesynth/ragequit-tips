@@ -1,6 +1,7 @@
 backend:
-  name: git-gateway
+  name: github
   branch: master
+  repo: remotesynth/ragequit-tips
 media_folder: images
 public_folder: /images
 publish_mode: editorial_workflow
