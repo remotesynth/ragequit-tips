@@ -1,7 +1,7 @@
 title: RageQuit.tips
 baseurl: /
 permalink: '/:title/'
-palette: green
+palette: red
 palettes:
   blue:
     sass:
