@@ -174,10 +174,10 @@ collections:
                 label: URL
                 required: true
   - name: doc_sections
-    label: Documentation Sections
+    label: Resource Sections
     files:
       - name: doc_sections
-        label: Documentation Sections
+        label: Resource Sections
         file: _data/doc_sections.yml
         fields:
           - widget: string
@@ -186,22 +186,22 @@ collections:
             required: true
             default: /docs/
             hint: >-
-              The path under which the documentation pages will be generated.
-              For example, set to "/" to put all documentation pages at root, or
-              set to "/docs/" to put all documentation pages under "/docs/".
+              The path under which the resource pages will be generated.
+              For example, set to "/" to put all resource pages at root, or
+              set to "/resources/" to put all resource pages under "/resources/".
           - widget: list
             name: sections
             label: Sections
             required: false
             hint: >-
-              The main sections of the documentation. Every item must be the URL
+              The main sections of resources. Every item must be the URL
               slug representing the section.
             field:
               label: String
               name: string
               widget: string
   - name: docs
-    label: Documentation Pages
+    label: Resource Pages
     folder: /
     create: true
     extension: md
@@ -219,7 +219,7 @@ collections:
         label: Weight
         required: false
         hint: >-
-          The navigation order of the documentation page. This value is ignored
+          The navigation order of the resource page. This value is ignored
           for parent section pages.
         valueType: int
       - widget: string
@@ -227,11 +227,11 @@ collections:
         label: Excerpt
         required: false
         hint: >-
-          Short description of the documentation section. This value is used in
+          Short description of the resource section. This value is used in
           overview page and is ignored for child section pages.
       - widget: object
         name: menus
-        label: Documentation Pages Menus
+        label: Resource Pages Menus
         required: false
         hint: Which menus should this page show up in
         fields:

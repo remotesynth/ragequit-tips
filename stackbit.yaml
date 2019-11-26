@@ -246,10 +246,10 @@ models:
           slug representing the section.
         items:
           type: string
-  docs:
+  resources:
     type: page
-    label: Documentation Pages
-    template: docs
+    label: Resource Pages
+    template: resources
     fields:
       - type: string
         name: title
@@ -262,17 +262,17 @@ models:
         name: weight
         label: Weight
         description: >-
-          The navigation order of the documentation page. This value is ignored
+          The navigation order of the resource page. This value is ignored
           for parent section pages.
       - type: string
         name: excerpt
         label: Excerpt
         description: >-
-          Short description of the documentation section. This value is used in
+          Short description of the resource section. This value is used in
           overview page and is ignored for child section pages.
       - type: page_menus
         name: menus
-        label: Documentation Pages Menus
+        label: Resource Pages Menus
         description: Which menus should this page show up in
   home:
     type: page
