@@ -8,7 +8,7 @@ sections:
     content: >-
       When work or the world make you feel like just quitting, this is place for
       tips, links and stories about dealing with burnout.
-    image: images/5.jpg
+    image: /images/background_image.png
     section_id: hero
     title: Don't let burnout make you quit!
     type: heroblock
@@ -38,60 +38,52 @@ sections:
     section_id: features
     type: featuresblock
   - actions:
-      - label: View Demo
-        url: /docs/getting-started/index.html
-      - label: Get Started
+      - label: Lean More
+        url: /about.html
+      - label: Resources
         url: /docs/getting-started/index.html
     component: content_block.html
     content: >-
-      Nam pulvinar ante eu ultricies volutpat. Sed nulla nibh, dapibus sit amet
-      cursus quis, fringilla nec sapien. Vestibulum imperdiet nunc bibendum
-      consectetur lobortis.
-    image: images/10.jpg
+      Burnout is a common problem facing people today. Oftentimes, it can lead
+      to people leaving their jobs, leaving an industry or pulling back from
+      involvement in the things they once cared deeply about. RageQuit.tips was
+      created as a way for people to share and help others cope with burnout.
+    image: /images/burntout.jpg
     section_id: text-img
-    title: A Section With An Image
+    title: About this site
     type: contentblock
   - component: features_block.html
     featureslist:
       - actions:
-          - label: Learn More
+          - label: Read More
             url: /overview.html
         content: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
           ligula, cursus id molestie vel, maximus aliquet risus. Vivamus in nibh
           fringilla, fringilla tortor at, pulvinar orci.
-        title: Overview
+        title: Blog Post 1
       - actions:
-          - label: Learn More
+          - label: Read More
             url: /showcase.html
         content: >-
           Donec lobortis velit sed suscipit lobortis. Ut non quam metus. Nullam
           a maximus mi. Quisque justo nunc, sollicitudin euismod euismod at,
           tincidunt ut tellus. Vivamus rhoncus mattis varius.
-        title: Showcase
+        title: Blog Post 2
     section_id: features-two-col
-    subtitle: An optional subtitle of the section
-    title: Sample Layouts
+    subtitle: Recent posts from people who are dealing with or have experienced burnout
+    title: Featured Posts
     type: featuresblock
   - actions:
-      - label: Get Started
-        url: /docs/getting-started/installation.html
+      - label: Learn More
+        url: /contribute.html
     component: cta_block.html
     section_id: cta
-    subtitle: This is an optional description for the call to action block.
-    title: The Title of The Call to Action Block
+    subtitle: >-
+      Got links you'd like to share? Want to post to our blog about your
+      experiences? We'd love to hear from you.
+    title: Share your experiences or resources
     type: ctablock
-  - actions:
-      - label: Get Started
-        url: /docs/getting-started/installation.html
-    component: content_block.html
-    content: >-
-      Nam pulvinar ante eu ultricies volutpat. Sed nulla nibh, dapibus sit amet
-      cursus quis, fringilla nec sapien. Vestibulum imperdiet nunc bibendum
-      consectetur lobortis.
-    section_id: text-no-img
-    title: A Section Without Image
-    type: contentblock
 menus:
   main:
     title: Home
