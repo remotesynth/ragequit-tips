@@ -75,24 +75,15 @@ sections:
     title: Featured Posts
     type: featuresblock
   - actions:
-      - label: Get Started
-        url: /docs/getting-started/installation.html
+      - label: Learn More
+        url: /contribute.html
     component: cta_block.html
     section_id: cta
-    subtitle: This is an optional description for the call to action block.
-    title: The Title of The Call to Action Block
+    subtitle: >-
+      Got links you'd like to share? Want to post to our blog about your
+      experiences? We'd love to hear from you.
+    title: Share your experiences or resources
     type: ctablock
-  - actions:
-      - label: Get Started
-        url: /docs/getting-started/installation.html
-    component: content_block.html
-    content: >-
-      Nam pulvinar ante eu ultricies volutpat. Sed nulla nibh, dapibus sit amet
-      cursus quis, fringilla nec sapien. Vestibulum imperdiet nunc bibendum
-      consectetur lobortis.
-    section_id: text-no-img
-    title: A Section Without Image
-    type: contentblock
 menus:
   main:
     title: Home
