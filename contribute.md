@@ -1,10 +1,10 @@
 ---
-title: Style Guide
-subtitle: The style guide provides you with a blueprint of default post and page styles.
+title: How to Contribute to RageQuit.tips
+subtitle: Share your resources or your story and help others deal with burnout.
 img_path: images/5.jpg
 menus:
   main:
-    title: Style Guide
+    title: Contribute
     weight: 4
 layout: page
 ---
