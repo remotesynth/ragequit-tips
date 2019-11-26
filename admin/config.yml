@@ -3,6 +3,8 @@ backend:
   branch: master
 media_folder: images
 public_folder: /images
+publish_mode: editorial_workflow
+open_authoring: true
 collections:
   - name: config
     label: Global Site Config
@@ -198,7 +200,7 @@ collections:
               name: string
               widget: string
   - name: docs
-    label: Documentation Pagess
+    label: Documentation Pages
     folder: /
     create: true
     extension: md
