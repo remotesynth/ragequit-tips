@@ -9,4 +9,4 @@ menus:
 layout: page
 ---
 
-<p><a href="#" id="login">Authenticate</a></p>
+<p><a href="#" id="login" class="button">Authenticate</a></p>

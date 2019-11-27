@@ -32,7 +32,12 @@ layout: body
                   </ul><!-- .docs-section-pages -->
                 {% endif %}
               {% endif %}
-              <p><a href="/admin/#/edit{{page.url}}">Edit this page</a></p>
+              {% assign collection_path = page.path | replace: '.md', '' %}
+              {% assign collection_array = collection_path | split: "/" %}
+              {% if collection_array.size >= 3 %}
+                {% assign collection_path = collection_path | replace: "resources/", "resources_" %}
+              {% endif %}
+              <p><a href="/admin/#/edit/{{collection_path}}" class="button">Edit this page</a></p>
             </div><!-- .post-content -->
           </div><!-- .post-inside -->
         </article><!-- .post -->
