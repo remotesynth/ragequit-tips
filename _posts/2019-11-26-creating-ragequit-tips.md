@@ -1,7 +1,8 @@
 ---
-title: Community Round-up
-date: '2019-05-27'
-content_img_path: images/2.jpg
+title: On Creating RageQuit.tips
+date: '2019-11-26'
+thumb_img_path: images/iphone.jpg
+content_img_path: images/iphone.jpg
 excerpt: >-
   Amet nibh adipiscing adipiscing. Commodo ante vis placerat interdum massa
   massa primis. Tempus condimentum tempus non ac varius cubilia adipiscing

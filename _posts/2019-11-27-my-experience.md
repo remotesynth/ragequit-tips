@@ -1,8 +1,8 @@
 ---
-title: Introducing The Libris Theme
-date: '2019-04-24'
-thumb_img_path: images/4.jpg
-content_img_path: images/3.jpg
+title: Sharing My Experiences with Burnout
+date: '2019-11-27'
+thumb_img_path: images/alone_bw.jpg
+content_img_path: images/alone_bw.jpg
 excerpt: >-
   Vis accumsan feugiat adipiscing nisl amet adipiscing accumsan blandit accumsan
   sapien blandit ac amet faucibus aliquet placerat commodo. Antealiquet commodo

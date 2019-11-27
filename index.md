@@ -30,7 +30,7 @@ sections:
         title: Blog
       - actions:
           - label: Learn More
-            url: /contribute.html
+            url: /contribute
         content: >-
           Have experiences you want to share? Want to help others deal with
           burnout? Here's how to contribute.
@@ -39,7 +39,7 @@ sections:
     type: featuresblock
   - actions:
       - label: Lean More
-        url: /about.html
+        url: /about
       - label: Resources
         url: /resources/index.html
     component: content_block.html
@@ -76,7 +76,7 @@ sections:
     type: featuresblock
   - actions:
       - label: Learn More
-        url: /contribute.html
+        url: /contribute
     component: cta_block.html
     section_id: cta
     subtitle: >-
