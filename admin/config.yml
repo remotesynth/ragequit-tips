@@ -2,10 +2,10 @@ backend:
   name: github
   branch: master
   repo: remotesynth/ragequit-tips
+  open_authoring: true
 media_folder: images
 public_folder: /images
 publish_mode: editorial_workflow
-open_authoring: true
 collections:
   - name: config
     label: Global Site Config
@@ -200,9 +200,9 @@ collections:
               label: String
               name: string
               widget: string
-  - name: docs
+  - name: resources
     label: Resource Pages
-    folder: /
+    folder: /resources
     create: true
     extension: md
     slug: '{{slug}}'
@@ -287,7 +287,7 @@ collections:
         name: layout
         label: Layout
         required: true
-        default: docs
+        default: resources
       - widget: markdown
         name: body
         label: Content
@@ -295,7 +295,7 @@ collections:
         hint: Page content
     filter:
       field: layout
-      value: docs
+      value: resources
   - name: home
     label: Home
     files:
@@ -840,113 +840,7 @@ collections:
             label: Layout
             required: true
             default: overview
-  - name: showcase
-    label: Showcase
-    files:
-      - name: showcase
-        label: Showcase
-        file: showcase.md
-        fields:
-          - widget: string
-            name: title
-            label: Title
-            required: true
-            hint: The title of the page.
-          - widget: string
-            name: subtitle
-            label: Subtitle
-            required: false
-            hint: The text shown just below the page title.
-          - widget: image
-            name: img_path
-            label: Image
-            required: false
-            hint: The image shown in the background of the page header.
-          - widget: list
-            name: items
-            label: Items
-            required: false
-            hint: Showcase items.
-            fields:
-              - widget: string
-                name: title
-                label: Title
-                required: false
-                hint: The title of the item.
-              - widget: string
-                name: subtitle
-                label: Subtitle
-                required: false
-                hint: The subtitle of the item.
-              - widget: image
-                name: preview_img
-                label: Preview Image
-                required: false
-                hint: The preview image of the item.
-              - widget: string
-                name: url
-                label: URL
-                required: false
-                hint: The URL of the item.
-          - widget: object
-            name: menus
-            label: Showcase Menus
-            required: false
-            hint: Which menus should this page show up in
-            fields:
-              - widget: object
-                name: main
-                label: Main menu item
-                required: false
-                hint: Main menu item for this page
-                fields:
-                  - widget: string
-                    name: title
-                    label: Title
-                    required: false
-                    hint: The title of the menu item
-                  - widget: number
-                    name: weight
-                    label: Weight
-                    required: false
-                    hint: Position for sorting
-                    valueType: int
-                  - widget: string
-                    name: identifier
-                    label: Identifier
-                    required: false
-                    hint: >-
-                      The identifier of a menu item could be used as a parent
-                      menu of another menu item
-              - widget: object
-                name: layouts
-                label: Layouts menu item
-                required: false
-                hint: Layouts menu item for this page
-                fields:
-                  - widget: string
-                    name: title
-                    label: Title
-                    required: false
-                    hint: The title of the menu item
-                  - widget: number
-                    name: weight
-                    label: Weight
-                    required: false
-                    hint: Position for sorting
-                    valueType: int
-                  - widget: string
-                    name: identifier
-                    label: Identifier
-                    required: false
-                    hint: >-
-                      The identifier of a menu item could be used as a parent
-                      menu of another menu item
-          - widget: hidden
-            name: layout
-            label: Layout
-            required: true
-            default: showcase
+
   - name: page
     label: Pages
     folder: /
