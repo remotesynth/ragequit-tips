@@ -1,0 +1,39 @@
+<section id="{{ include.section.section_id }}" class="block features-block outer{% if include.section.title or include.section.subtitle %} has-header{% endif %}">
+  <div class="inner">
+    <div class="block-inside">
+      {% if include.section.title or include.section.subtitle %}
+      <div class="block-header">
+        {% assign title_is_not_empty = include.section.title | is_not_empty %}
+        {% if title_is_not_empty %}
+        <h2 class="block-title">{{ include.section.title }}</h2>
+        {% endif %}
+        {% assign subtitle_is_not_empty = include.section.subtitle | is_not_empty %}
+        {% if subtitle_is_not_empty %}
+        <p class="block-subtitle">
+          {{ include.section.subtitle }}
+        </p>
+        {% endif %}
+      </div><!-- .block-header -->
+      {% endif %}
+      {% assign display_posts = '/posts' | get_pages | sort: 'date' | reverse %}
+      {% if display_posts.size > 0 %}
+      <div class="block-items">
+        {% for post in display_posts %}
+        <section class="block-item">
+          <div class="block-item-inside">
+            <h3 class="block-item-title line-left">{{ post.title }}</h3>
+            <div class="block-item-text">
+              {{ post.excerpt }}
+            </div>
+              <div class="block-item-cta">
+                  <a href="{{ post.url }}">Read More <span class="icon-arrow-right" aria-hidden="true"></span></a>
+              </div>
+                
+          </div><!-- .block-item-inside -->
+        </section><!-- block-item -->
+        {% endfor %}
+      </div><!-- .block-items -->
+      {% endif %}
+    </div><!-- .block-inside -->
+  </div><!-- .inner -->
+</section><!-- .features-block -->

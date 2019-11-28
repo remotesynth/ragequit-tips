@@ -52,7 +52,7 @@ sections:
     section_id: text-img
     title: About this site
     type: contentblock
-  - component: features_block.html
+  - component:  blogs_block.html
     featureslist:
       - actions:
           - label: Read More

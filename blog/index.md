@@ -1,6 +1,6 @@
 ---
 title: Blog
-subtitle: A place to share your experiences related to burnout
+subtitle: A place to share your experiences related to burnout.
 img_path: /images/burntout2.png
 menus:
   main:
