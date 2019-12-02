@@ -19,11 +19,18 @@ layout: body
           {{ page.subtitle }}
         </div><!-- .post-subtitle -->
         {% endif %}
+        {% assign author_is_not_empty = page.author | is_not_empty %}
+        {% assign authorlink_is_not_empty = page.author_link | is_not_empty %}
       </div><!-- .inner-small -->
     </header><!-- .post-header -->
     <div class="outer">
       <div class="inner-medium">
         <div class="post-content">
+          {% if author_is_not_empty %}
+          <p style="font-size: .9em;">
+              by {% if authorlink_is_not_empty %}<a href="page.author_link">{% endif %}{{ page.author }}{% if authorlink_is_not_empty %}</a>{% endif %}
+          </p>
+          {% endif %}
           {{ content }}
 
           <p style="text-align: center;"><a href="/admin/#/collections/post/new" class="button">Add Your Story to Our Blog</a></p>

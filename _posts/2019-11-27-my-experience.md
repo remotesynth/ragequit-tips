@@ -8,6 +8,8 @@ excerpt: >-
   sapien blandit ac amet faucibus aliquet placerat commodo. Antealiquet commodo
   accumsan vis phasellus adipiscing. 
 layout: post
+author: Brian Rinaldi
+author_link: https://twitter.com/remotesynth
 ---
 
 **Vis accumsan feugiat** adipiscing nisl amet adipiscing accumsan blandit accumsan sapien blandit ac amet faucibus aliquet placerat commodo. Interdum ante aliquet commodo accumsan vis phasellus adipiscing. Ornare a in lacinia. Vestibulum accumsan ac metus massa tempor. 

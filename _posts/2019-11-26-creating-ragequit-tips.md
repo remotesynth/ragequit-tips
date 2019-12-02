@@ -8,14 +8,14 @@ excerpt: >-
   massa primis. Tempus condimentum tempus non ac varius cubilia adipiscing
   placerat lorem turpis at.
 layout: post
+author: Brian Rinaldi
+author_link: https://twitter.com/remotesynth
 ---
 
-**Donec neque lorem**, sodales non fermentum et, aliquam quis erat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla tincidunt justo eu ante ultrices posuere. Duis cursus at massa ac tempus. Morbi sit amet mi sit amet lorem ullamcorper feugiat ac et dolor. Nullam rhoncus urna tincidunt odio ultricies, at dapibus felis facilisis. Ut condimentum nulla eget feugiat finibus. Suspendisse sit amet purus a eros dignissim commodo ut a erat.
+I've been sitting on the idea for this site for about 3 years. I was in the middle of trying to deal with [my own experiences with burnout](http://localhost:8888/my-experience/) and I wished I had somewhere to look for strategies to cope with the feelings and, perhaps, somewhere to discuss them without judgement. So, I bought a domain name, and, as these things usually go, I sat on it for a very long time.
 
-Phasellus commodo dolor sit amet, consectetur adipiscing elit. Nam a finibus magna. Sed et pulvinar dolor. Suspendisse vitae iaculis lacus. Proin vulputate, leo eget pulvinar faucibus, felis est condimentum lorem, in rhoncus neque felis ac leo. Duis felis lectus, ultrices id dolor vel, tincidunt tristique nunc. Nullam quis orci magna. Proin eget nunc et dolor hendrerit eleifend. Praesent a vehicula justo, quis convallis lacus. Phasellus porttitor, turpis vel placerat condimentum, urna felis volutpat ligula, et ultricies arcu mi ac nisl. Cras id consectetur ligula, et mollis odio. Aenean erat dui, congue vitae nisi a, aliquet lobortis eros.
+Recently, I decided it was time to finally build the site. It was partially spurred on by reading a [post by Chris Coyier](https://css-tricks.com/netlify-cms-open-authoring/) covering the open authoring on Netlify CMS. This struck me as a potentially perfect solution for the site I wanted to build.
 
-> The beauty of type lies in its utility, prettiness without readability serves neither author nor reader. - James Felici
+Why? Well, I'm no expert on burnout. And my own experiences and the strategies I used, while they may have helped me, are not necessarily going to be applicable to others. But, if the community has the power to contribute and maintain it, perhaps it could grow into something better and more useful.
 
-Sed augue lorem, porta nec lorem et, luctus egestas nunc. Sed in tellus at enim commodo pharetra. Mauris nisi ipsum, auctor nec justo non, lobortis ullamcorper magna. Pellentesque posuere posuere dolor, quis egestas est ultrices id. Cras at urna lectus. Curabitur in placerat ligula. Phasellus pharetra scelerisque lectus, id sagittis lorem pretium eget. Phasellus commodo nunc ante, nec commodo urna iaculis eu. Pellentesque euismod et ante quis vestibulum. Ut quis sapien nisi. Sed interdum sit amet sem et vestibulum. Maecenas tempor dictum leo, quis rutrum purus tincidunt vitae. Fusce vel turpis risus. Donec congue accumsan tempus. Nunc nec elit magna. Aenean luctus auctor ligula at lacinia.
-
-Donec neque lorem, sodales non fermentum et, aliquam quis erat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla tincidunt justo eu ante ultrices posuere. Duis cursus at massa ac tempus. Morbi sit amet mi sit amet lorem ullamcorper feugiat ac et dolor. Nullam rhoncus urna tincidunt odio ultricies, at dapibus felis facilisis. Ut condimentum nulla eget feugiat finibus. Suspendisse sit amet purus a eros dignissim commodo ut a erat. Maecenas pretium velit faucibus, porttitor lacus eu, eleifend sapien. In hac habitasse platea dictumst. Pellentesque nisi nisl, consectetur a accumsan sit amet, finibus vel nibh. Vivamus aliquet urna non turpis vehicula maximus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+Well, I know this isn't some amazing origin story, but it did spur the creation of the site and I hope you find it helpful to you.
