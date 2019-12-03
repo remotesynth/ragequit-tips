@@ -202,100 +202,97 @@ collections:
               widget: string
   - name: resources
     label: Resources - Home
-    folder: /resources
-    create: true
-    extension: md
-    slug: '{{slug}}'
-    fields:
-      - widget: string
-        name: title
-        label: Title
-        required: true
-        hint: >-
-          The title of the page, used both as a page title and as a navigation
-          menu title.
-      - widget: number
-        name: weight
-        label: Weight
-        required: false
-        hint: >-
-          The navigation order of the resource page. This value is ignored
-          for parent section pages.
-        valueType: int
-      - widget: string
-        name: excerpt
-        label: Excerpt
-        required: false
-        hint: >-
-          Short description of the resource section. This value is used in
-          overview page and is ignored for child section pages.
-      - widget: object
-        name: menus
-        label: Resource Pages Menus
-        required: false
-        hint: Which menus should this page show up in
-        fields:
-          - widget: object
-            name: main
-            label: Main menu item
-            required: false
-            hint: Main menu item for this page
-            fields:
-              - widget: string
-                name: title
-                label: Title
-                required: false
-                hint: The title of the menu item
-              - widget: number
-                name: weight
-                label: Weight
-                required: false
-                hint: Position for sorting
-                valueType: int
-              - widget: string
-                name: identifier
-                label: Identifier
-                required: false
-                hint: >-
-                  The identifier of a menu item could be used as a parent menu
-                  of another menu item
-          - widget: object
-            name: layouts
-            label: Layouts menu item
-            required: false
-            hint: Layouts menu item for this page
-            fields:
-              - widget: string
-                name: title
-                label: Title
-                required: false
-                hint: The title of the menu item
-              - widget: number
-                name: weight
-                label: Weight
-                required: false
-                hint: Position for sorting
-                valueType: int
-              - widget: string
-                name: identifier
-                label: Identifier
-                required: false
-                hint: >-
-                  The identifier of a menu item could be used as a parent menu
-                  of another menu item
-      - widget: hidden
-        name: layout
-        label: Layout
-        required: true
-        default: resources
-      - widget: markdown
-        name: body
-        label: Content
-        required: false
-        hint: Page content
-    filter:
-      field: layout
-      value: resources
+    files:
+    - label: "Resources Home Page"
+      name: "resource_home"
+      file: "resources/index.md"
+      fields:
+        - widget: string
+          name: title
+          label: Title
+          required: true
+          hint: >-
+            The title of the page, used both as a page title and as a navigation
+            menu title.
+        - widget: number
+          name: weight
+          label: Weight
+          required: false
+          hint: >-
+            The navigation order of the resource page. This value is ignored
+            for parent section pages.
+          valueType: int
+        - widget: string
+          name: excerpt
+          label: Excerpt
+          required: false
+          hint: >-
+            Short description of the resource section. This value is used in
+            overview page and is ignored for child section pages.
+        - widget: object
+          name: menus
+          label: Resource Pages Menus
+          required: false
+          hint: Which menus should this page show up in
+          fields:
+            - widget: object
+              name: main
+              label: Main menu item
+              required: false
+              hint: Main menu item for this page
+              fields:
+                - widget: string
+                  name: title
+                  label: Title
+                  required: false
+                  hint: The title of the menu item
+                - widget: number
+                  name: weight
+                  label: Weight
+                  required: false
+                  hint: Position for sorting
+                  valueType: int
+                - widget: string
+                  name: identifier
+                  label: Identifier
+                  required: false
+                  hint: >-
+                    The identifier of a menu item could be used as a parent menu
+                    of another menu item
+            - widget: object
+              name: layouts
+              label: Layouts menu item
+              required: false
+              hint: Layouts menu item for this page
+              fields:
+                - widget: string
+                  name: title
+                  label: Title
+                  required: false
+                  hint: The title of the menu item
+                - widget: number
+                  name: weight
+                  label: Weight
+                  required: false
+                  hint: Position for sorting
+                  valueType: int
+                - widget: string
+                  name: identifier
+                  label: Identifier
+                  required: false
+                  hint: >-
+                    The identifier of a menu item could be used as a parent menu
+                    of another menu item
+        - widget: hidden
+          name: layout
+          label: Layout
+          required: true
+          default: resources
+        - widget: markdown
+          name: body
+          label: Content
+          required: false
+          hint: Page content
   - name: resources_about
     label: Resources - About
     folder: /resources/about
