@@ -204,7 +204,7 @@ collections:
     label: Resources - Home
     files:
     - label: "Resources Home Page"
-      name: "resource_home"
+      name: "index"
       file: "resources/index.md"
       fields:
         - widget: string
