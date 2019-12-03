@@ -24,17 +24,5 @@
         <script src="{{ 'assets/js/prism.js' | relative_url }}" data-manual></script>
         <script src="{{ 'assets/js/main.js' | relative_url }}"></script>
         <script src="https://unpkg.com/netlify-auth-providers"></script>
-        <script>
-        document.getElementById("login").addEventListener("click", function(e) {
-            e.preventDefault();
-            var authenticator = new netlify.default ({site_id: "20a5838e-8288-4dc6-9e04-4a52be2cb6f6"});
-            authenticator.authenticate({provider:"github", scope: "user"}, function(err, data) {
-                if (err) {
-                    return alert("Error Authenticating with GitHub: " + err);
-                }
-                return
-            });
-        });
-          </script>
     </body> 
 </html>
