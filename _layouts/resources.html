@@ -37,7 +37,8 @@ layout: body
               {% if collection_array.size >= 3 %}
                 {% assign collection_path = collection_path | replace: "resources/", "resources_" %}
               {% endif %}
-              <p><a href="/admin/#/edit/{{collection_path}}" class="button">Edit this page</a></p>
+              {% assign page_cms = page.name | replace: ".md", "" %}
+              <p><a href="/admin/#/edit/{{collection_path}}" class="button">Edit this page</a>{% if collection_path != "resources/index" %}&nbsp;&nbsp;<a href="/admin/#/collections/{{collection_path | replace: page_cms, 'new'}}" class="button">Add a New Page to This Section</a>{% endif %}</p>
             </div><!-- .post-content -->
           </div><!-- .post-inside -->
         </article><!-- .post -->

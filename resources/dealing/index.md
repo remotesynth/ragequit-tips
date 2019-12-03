@@ -6,8 +6,6 @@ layout: resources
 
 This section aims to provide links to a variety of resources that offer advice and services to cope with the effects of burnout in yourself or in others.
 
-<a href="/admin/#/collections/resources" class="button">Add a New Page to This Section</a>
-
 ***
 
 Here are the articles in this section:

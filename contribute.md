@@ -31,7 +31,7 @@ Our [resource section](/resources/) aims to be a one stop for information as wel
 
 ### Modifying Existing Pages
 
-Every existing page within the resources section has an "edit this page" link. Clicking this button will take you to the CMS to edit the contents of that specific page. If you are not already authenticated with GitHub as shown above, you will need to do so at this time.
+Every existing page within the resources section has an "edit this page" link at the bottom. Clicking this button will take you to the CMS to edit the contents of that specific page. If you are not already authenticated with GitHub as shown above, you will need to do so at this time.
 
 Once you have made your edits, you will need to click the "save" button in the upper-left hand corner of the page.
 
@@ -45,11 +45,42 @@ This will submit your changes to be reviewed and accepted into the site.
 
 ### Adding New Pages to Existing Sections
 
+Every existing page within the resources sections has an "add a new page to this section" link at the bottom. Clicking this button will take you to the CMS to create a new page under that specific subsection of resources. If you are not already authenticated with GitHub as shown above, you will need to do so at this time.
 
+Fill in all the required content and then click the "save" button.
+
+![save your changes to a new page](/images/save_cms_newpage.png)
+
+You can continue to make changes to the new page. When you are ready to submit your page for publishing, change the status of the content to "In Review" via the drop-down in the upper-right hand corner of the page.
+
+![in review status](/images/in_review.png)
+
+This will submit your changes to be reviewed and accepted into the site.
+
+## Adding a Blog Post
+
+All blog pages and posts have an "add your story to our blog" link at the bottom. Clicking this button will take you to the CMS to create a new post under the blog. If you are not already authenticated with GitHub as shown above, you will need to do so at this time.
+
+Fill in all the required content and then click the "save" button.
+
+![save your changes to a new post](/images/save_cms_newpost.png)
+
+You can continue to make changes to the post. When you are ready to submit your post for publishing, change the status of the content to "In Review" via the drop-down in the upper-right hand corner of the page.
+
+![in review status](/images/in_review.png)
+
+This will submit your changes to be reviewed and accepted into the site.
 
 ### Adding New Sections
 
-## Adding a Blog Post
+New resource sections require a bit of additional work, so, unless you have experience using GitHub and configuring Netlify CMS, you're best bet is to email the request to [brian@stackbit.com](mailto:brian@stackbit.com) with details about the type of section and content you wish to add. Once a new section is added for you, adding pages can follow the directions above.
+
+For those of you technical enough, here are the basic steps to add a new resource section:
+
+1. Add a folder in under resources. Optionally, you can add an `index.md` file within the folder with the proper front matter or you can do this later via the CMS.
+2. Add your folder name into the `sections` array in `/data/doc_sections.yml`.
+3. Because Netlify CMS does not currently support collections with content in subfolders, you'll need to add a new collection to the Netlify CMS configuration at `/admin/config.yml`. Copy any of the other resource sections and modify the `name`, `label` and `folder` values. Note that the `name` should be "resources" + underscore + "folder name". For example, if you added a folder named "foo", the value of `name` would be `resources_foo`.
+4. If you wish to use the CMS to add content, you'll need to submit your pull request for the new section now. Once it is accepted, new content can be added via the CMS. Otherwise, you are free to add `.md` files in your new folder manually.
 
 ## The Technical Details
 
