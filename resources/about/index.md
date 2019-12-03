@@ -1,13 +1,8 @@
 ---
 title: About
 excerpt: >-
-  Libris is a Unibit theme created for project documentations. You can use it
-  for your project.
+  A resource for information and links related to burnout.
 layout: resources
 ---
 
-Ut quis consequat risus. Aenean ut porta ligula. Morbi id ante eu nisi suscipit maximus. Fusce ac congue quam. Nulla id elit facilisis, consequat magna vitae, scelerisque elit. Nullam lacinia elit in arcu scelerisque, ac volutpat neque sodales.
-
-***
-
-Here are the articles in this section:
+The resources section of RageQuit.tips is intended to share any sort of information and links related to the topic of burnout and how to cope with it. It is designed to allow anyone to contribute to any specific page or even to add pages and sections of their own. For a complete set of directions on how to contribute to this section, please visit our [contribution guide](http://localhost:8888/contribute/).

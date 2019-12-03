@@ -1,12 +1,11 @@
 ---
 title: Research
 excerpt: >-
-  To make it easy to write documentation in plain Markdown, most UI components
-  are styled using Markdown elements with few additional CSS classes.
+  A look at research studies related to burnout.
 layout: resources
 ---
 
-Ut quis consequat risus. Aenean ut porta ligula. Morbi id ante eu nisi suscipit maximus. Fusce ac congue quam. Nulla id elit facilisis, consequat magna vitae, scelerisque elit. Nullam lacinia elit in arcu scelerisque, ac volutpat neque sodales.
+This section aims to provide links to various resources and publications that provide summaries of research into the topic of burnout. Sections are divided into general burnout-related research and industry-specific research.
 
 ***
 

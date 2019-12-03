@@ -4,9 +4,7 @@ date: '2019-11-26'
 thumb_img_path: images/iphone.jpg
 content_img_path: images/iphone.jpg
 excerpt: >-
-  Amet nibh adipiscing adipiscing. Commodo ante vis placerat interdum massa
-  massa primis. Tempus condimentum tempus non ac varius cubilia adipiscing
-  placerat lorem turpis at.
+  Brian shares the backstory behind what drove him to create this site.
 layout: post
 author: Brian Rinaldi
 author_link: https://twitter.com/remotesynth

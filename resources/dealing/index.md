@@ -1,10 +1,10 @@
 ---
 title: Dealing with Burnout
-excerpt: In this section you'll find basic information about Libris and how to use it.
+excerpt: Links to resources on helping people cope with burnout.
 layout: resources
 ---
 
-Ut quis consequat risus. Aenean ut porta ligula. Morbi id ante eu nisi suscipit maximus. Fusce ac congue quam. Nulla id elit facilisis, consequat magna vitae, scelerisque elit. Nullam lacinia elit in arcu scelerisque, ac volutpat neque sodales.
+This section aims to provide links to a variety of resources that offer advice and services to cope with the effects of burnout in yourself or in others.
 
 ***
 
