@@ -1,6 +1,6 @@
 ---
-title: Burnout Research in the Medical Field
-weight: 1
+title: Research in the Medical Field
+weight: 3
 layout: resources
 ---
 

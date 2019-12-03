@@ -27,6 +27,28 @@ For more details on the technologies running the site, see [the technical detail
 
 ## Adding Resources
 
+Our [resource section](/resources/) aims to be a one stop for information as well as links to articles, research, services and other information around the web related to burnout.
+
+### Modifying Existing Pages
+
+Every existing page within the resources section has an "edit this page" link. Clicking this button will take you to the CMS to edit the contents of that specific page. If you are not already authenticated with GitHub as shown above, you will need to do so at this time.
+
+Once you have made your edits, you will need to click the "save" button in the upper-left hand corner of the page.
+
+![save your changes](/images/save_cms.png)
+
+Once you have completed all of your changes, change the status of the content to "In Review" via the drop-down in the upper-right hand corner of the page.
+
+![in review status](/images/in_review.png)
+
+This will submit your changes to be reviewed and accepted into the site.
+
+### Adding New Pages to Existing Sections
+
+
+
+### Adding New Sections
+
 ## Adding a Blog Post
 
 ## The Technical Details

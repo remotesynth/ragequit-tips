@@ -1,6 +1,6 @@
 ---
-title: Burnout Research in the Field of Athletics
-weight: 1
+title: Research in the Field of Athletics
+weight: 4
 layout: resources
 ---
 

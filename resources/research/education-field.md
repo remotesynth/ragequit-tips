@@ -1,6 +1,6 @@
 ---
-title: Burnout Research in the Education Field
-weight: 1
+title: Research in the Education Field
+weight: 2
 layout: resources
 ---
 

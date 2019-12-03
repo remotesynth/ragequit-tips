@@ -1,13 +1,8 @@
 ---
 title: Mindfulness
 excerpt: >-
-  See some interesting tools developed by the Libris community to help automate
-  parts of your workflow.
+  Resources related to practicing mindfulness as a way to cope with or even prevent burnout. 
 layout: resources
 ---
 
-Ut quis consequat risus. Aenean ut porta ligula. Morbi id ante eu nisi suscipit maximus. Fusce ac congue quam. Nulla id elit facilisis, consequat magna vitae, scelerisque elit. Nullam lacinia elit in arcu scelerisque, ac volutpat neque sodales.
-
-***
-
-Here are the articles in this section:
+Research has shown that practicing mindfulness can be part of a program to prevent burnout from happening or treat the symptoms of burnout. This section will include links to various mindfulness resources.
