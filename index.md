@@ -38,7 +38,7 @@ sections:
     section_id: features
     type: featuresblock
   - actions:
-      - label: Lean More
+      - label: Learn More
         url: /about
       - label: Resources
         url: /resources/index.html
