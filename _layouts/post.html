@@ -28,7 +28,7 @@ layout: body
         <div class="post-content">
           {% if author_is_not_empty %}
           <p style="font-size: .9em;">
-              by {% if authorlink_is_not_empty %}<a href="page.author_link">{% endif %}{{ page.author }}{% if authorlink_is_not_empty %}</a>{% endif %}
+              by {% if authorlink_is_not_empty %}<a href="{{page.author_link}}">{% endif %}{{ page.author }}{% if authorlink_is_not_empty %}</a>{% endif %}
           </p>
           {% endif %}
           {{ content }}

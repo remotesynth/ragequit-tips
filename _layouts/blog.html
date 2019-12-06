@@ -37,7 +37,7 @@ layout: body
             {% assign authorlink_is_not_empty = post.author_link | is_not_empty %}
             {% if author_is_not_empty %}
             <div class="post-meta">
-                by {% if authorlink_is_not_empty %}<a href="post.author_link">{% endif %}{{ post.author }}{% if authorlink_is_not_empty %}</a>{% endif %}
+                by {% if authorlink_is_not_empty %}<a href="{{post.author_link}}">{% endif %}{{ post.author }}{% if authorlink_is_not_empty %}</a>{% endif %}
             </div>
             {% endif %}
           </header><!-- .post-header -->
