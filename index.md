@@ -52,7 +52,7 @@ sections:
     section_id: text-img
     title: About this site
     type: contentblock
-  - component:  blogs_block.html
+  - component: blogs_block.html
     featureslist:
       - actions:
           - label: Read More
@@ -82,7 +82,7 @@ sections:
     subtitle: >-
       Got links you'd like to share? Want to post to our blog about your
       experiences? We'd love to hear from you.
-    title: Share your experiences or resources
+    title: Share your experiences or resources 2
     type: ctablock
 menus:
   main:
