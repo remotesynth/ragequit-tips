@@ -3,8 +3,9 @@ title: General Burnout Research
 weight: 1
 layout: resources
 ---
-
 The following are links to resources related to general research into burnout.
+
+[Burnout is Everyone's Problem](https://pca.st/gt8olew9) is an episode of the Work Life Podcast with Adam Grant that looks at some high-pressure workplaces that have figured out how to fight exhaustion by redesigning jobs—and changing cultures.
 
 [Interventions to alleviate burnout symptoms and to support return to work among employees with burnout: Systematic review and meta-analysis](https://www.sciencedirect.com/science/article/pii/S2213058616300596) (Kirsi Ahola, Salla Toppinen-Tanner, and Johanna Seppänen, ScienceDirect, March 2017) - An analysis of various research into various types of interventions for burnout.
 
