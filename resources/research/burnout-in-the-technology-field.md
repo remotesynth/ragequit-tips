@@ -2,10 +2,6 @@
 title: Burnout in the Technology Field
 weight: 2
 excerpt: This section covers burnout research related to technology careers.
-menus:
-  main:
-    title: ''
-    weight: ''
 layout: resources
 ---
 This section links to research and resources related to burnout in the information technology field.
